@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tram Wear - متجر الهوديز</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Changa:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- شريط التنقل -->
+    <nav class="navbar">
+        <a href="index.html" class="logo">
+            <img src="./image.jpg" alt="Tram Wear" loading="lazy">
+        </a>
+        <ul class="nav-links">
+            <li><a href="index.html"><i class="fas fa-home"></i> الرئيسية</a></li>
+            <li><a href="cart.html"><i class="fas fa-shopping-cart"></i> السلة <span class="cart-counter">0</span></a></li>
+            <li><a href="#contact"><i class="fas fa-phone"></i> تواصل معنا</a></li>
+        </ul>
+    </nav>
+
+    <!-- قسم البطل -->
+    <section class="hero">
+        <h1>أهلاً بك في Tram Wear</h1>
+        <p>تسوق أفضل الهوديز بألوان ومقاسات تناسب ذوقك!</p>
+    </section>
+
+    <!-- شريط البحث -->
+    <div class="search-container">
+        <input type="text" id="searchInput" placeholder="ابحث عن هودي..." autocomplete="off">
+        <i class="fas fa-search search-icon"></i>
+    </div>
+
+    <!-- قسم التصفية -->
+    <section class="filters">
+        <select id="colorFilter">
+            <option value="all">جميع الألوان</option>
+            <option value="أسود">أسود</option>
+            <option value="رمادي">رمادي</option>
+            <option value="أزرق">أزرق</option>
+            <option value="أحمر">أحمر</option>
+            <option value="أخضر">أخضر</option>
+            <option value="أبيض">أبيض</option>
+            <option value="برتقالي">برتقالي</option>
+            <option value="أصفر">أصفر</option>
+        </select>
+        <select id="priceFilter">
+            <option value="all">جميع الأسعار</option>
+            <option value="0-400">0-400 EGP</option>
+            <option value="400-500">400-500 EGP</option>
+            <option value="500+">500+ EGP</option>
+        </select>
+    </section>
+
+    <!-- قسم المنتجات -->
+    <section class="products" id="productContainer">
+        <!-- سيتم إضافة المنتجات ديناميكيًا -->
+    </section>
+
+    <!-- نافذة تفاصيل المنتج -->
+    <div class="overlay" id="overlay"></div>
+    <div class="modal" id="productModal">
+        <button class="close-btn" id="closeModal"><i class="fas fa-times"></i></button>
+        <div id="modalContent"></div>
+    </div>
+
+    <!-- تذييل الصفحة -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>عن المتجر</h3>
+                <p>متجرنا يقدم أفضل الهوديز بجودة عالية وأسعار مناسبة.</p>
+            </div>
+            <div class="footer-section">
+                <h3>روابط سريعة</h3>
+                <ul>
+                    <li><a href="index.html">الرئيسية</a></li>
+                    <li><a href="cart.html">السلة</a></li>
+                    <li><a href="#contact">تواصل معنا</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>وسائل التواصل</h3>
+                <p><i class="fas fa-phone"></i> 0123456789</p>
+                <p><i class="fas fa-envelope"></i> <a href="mailto:support@tramwear.com">support@tramwear.com</a></p>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>جميع الحقوق محفوظة &copy; 2025 Tram Wear</p>
+        </div>
+    </footer>
+
+    <!-- زر واتساب -->
+    <a href="https://wa.me/966123456789" class="whatsapp-float" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- زر العودة للأعلى -->
+    <button class="back-to-top" aria-label="العودة إلى الأعلى">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="index.js"></script>
+</body>
+</html>

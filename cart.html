@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>سلة التسوق - Tram Wear</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Changa:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- شريط التنقل -->
+    <nav class="navbar">
+        <a href="index.html" class="logo">
+            <img src="images/logo.png" alt="Tram Wear" loading="lazy">
+        </a>
+        <ul class="nav-links">
+            <li><a href="index.html"><i class="fas fa-home"></i> الرئيسية</a></li>
+            <li><a href="cart.html"><i class="fas fa-shopping-cart"></i> السلة <span class="cart-counter">0</span></a></li>
+            <li><a href="#contact"><i class="fas fa-phone"></i> تواصل معنا</a></li>
+        </ul>
+    </nav>
+
+    <!-- محتوى السلة -->
+    <section class="cart-container">
+        <h1>سلة التسوق</h1>
+        <div class="cart-items" id="cartItems"></div>
+        <div class="cart-summary">
+            <div class="summary-row">
+                <span>المجموع الفرعي:</span>
+                <span id="subtotal">0 EGP</span>
+            </div>
+            <div class="summary-row">
+                <span>التوصيل:</span>
+                <span id="shipping">50 EGP</span>
+            </div>
+            <div class="summary-row total">
+                <span>الإجمالي:</span>
+                <span id="total">50 EGP</span>
+            </div>
+            <a href="checkout.html" class="checkout-btn">متابعة الشراء</a>
+        </div>
+    </section>
+
+    <!-- تذييل الصفحة -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>عن المتجر</h3>
+                <p>متجرنا يقدم أفضل الهوديز بجودة عالية وأسعار مناسبة.</p>
+            </div>
+            <div class="footer-section">
+                <h3>روابط سريعة</h3>
+                <ul>
+                    <li><a href="index.html">الرئيسية</a></li>
+                    <li><a href="cart.html">السلة</a></li>
+                    <li><a href="#contact">تواصل معنا</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>وسائل التواصل</h3>
+                <p><i class="fas fa-phone"></i> 0123456789</p>
+                <p><i class="fas fa-envelope"></i> <a href="mailto:support@tramwear.com">support@tramwear.com</a></p>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>جميع الحقوق محفوظة &copy; 2025 Tram Wear</p>
+        </div>
+    </footer>
+
+    <!-- زر واتساب -->
+    <a href="https://wa.me/966123456789" class="whatsapp-float" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <script src="cart.js"></script>
+</body>
+</html>
