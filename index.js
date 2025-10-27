@@ -4,13 +4,13 @@ const products = [
       id: 1,
       name: "هودي كلاسيك",
       price: 450,
-      image: "images/hoodie-classic.jpg",
+      image: "red.jpeg",
       description: "هودي شتوي دافئ مع جيب أمامي، مثالي للطقس البارد.",
       colors: [
-          { name: "أسود", code: "#000000", image: "images/hoodie-classic-black.jpg" },
-          { name: "رمادي", code: "#808080", image: "images/hoodie-classic-gray.jpg" },
-          { name: "أزرق", code: "#0000FF", image: "images/hoodie-classic-blue.jpg" },
-          { name: "أحمر", code: "#FF0000", image: "images/hoodie-classic-red.jpg" }
+          { name: "أسود", code: "#000000", image: "black.webp" },
+          { name: "رمادي", code: "#808080", image: "grey.jpeg" },
+          { name: "أزرق", code: "#0000FF", image: "blue.jpeg" },
+          { name: "أحمر", code: "#FF0000", image: "red.jpeg" }
       ],
       sizes: ["S", "M", "L", "XL", "XXL"]
   },
@@ -18,12 +18,12 @@ const products = [
       id: 2,
       name: "هودي رياضي",
       price: 500,
-      image: "images/hoodie-sport.jpg",
+      image: "white.jpeg",
       description: "هودي رياضي خفيف الوزن، مثالي للتمارين أو الخروجات الكاجوال.",
       colors: [
-          { name: "أخضر", code: "#28A745", image: "images/hoodie-sport-green.jpg" },
-          { name: "أبيض", code: "#FFFFFF", image: "images/hoodie-sport-white.jpg" },
-          { name: "برتقالي", code: "#FF6F61", image: "images/hoodie-sport-orange.jpg" }
+          { name: "أخضر", code: "#28A745", image: "green.jpeg" },
+          { name: "أبيض", code: "#FFFFFF", image: "white.jpeg" },
+          { name: "برتقالي", code: "#FF6F61", image: "orange.jpeg" }
       ],
       sizes: ["S", "M", "L", "XL"]
   },
@@ -31,11 +31,11 @@ const products = [
       id: 3,
       name: "هودي مطبوع",
       price: 480,
-      image: "images/hoodie-printed.jpg",
+      image: "yellow.jpeg",
       description: "هودي بتصميم مطبوع مميز، يناسب الأسلوب العصري.",
       colors: [
-          { name: "أسود", code: "#000000", image: "images/hoodie-printed-black.jpg" },
-          { name: "أصفر", code: "#FFD700", image: "images/hoodie-printed-yellow.jpg" }
+          { name: "أسود", code: "#000000", image: "black.webp" },
+          { name: "أصفر", code: "#FFD700", image: "yellow.jpeg" }
       ],
       sizes: ["M", "L", "XL", "XXL"]
   },
@@ -43,84 +43,84 @@ const products = [
     id: 4,
     name: "هودي مطبوع",
     price: 480,
-    image: "images/hoodie-printed.jpg",
-    description: "هودي بتصميم مطبوع مميز، يناسب الأسلوب العصري.",
-    colors: [
-        { name: "أسود", code: "#000000", image: "images/hoodie-printed-black.jpg" },
-        { name: "أصفر", code: "#FFD700", image: "images/hoodie-printed-yellow.jpg" }
-    ],
+     image: "yellow.jpeg",
+      description: "هودي بتصميم مطبوع مميز، يناسب الأسلوب العصري.",
+      colors: [
+          { name: "أسود", code: "#000000", image: "black.webp" },
+          { name: "أصفر", code: "#FFD700", image: "yellow.jpeg" }
+      ],
     sizes: ["M", "L", "XL", "XXL"]
 },
 {
   id: 5,
   name: "هودي مطبوع",
   price: 480,
-  image: "images/hoodie-printed.jpg",
-  description: "هودي بتصميم مطبوع مميز، يناسب الأسلوب العصري.",
-  colors: [
-      { name: "أسود", code: "#000000", image: "images/hoodie-printed-black.jpg" },
-      { name: "أصفر", code: "#FFD700", image: "images/hoodie-printed-yellow.jpg" }
-  ],
+    image: "yellow.jpeg",
+      description: "هودي بتصميم مطبوع مميز، يناسب الأسلوب العصري.",
+      colors: [
+          { name: "أسود", code: "#000000", image: "black.webp" },
+          { name: "أصفر", code: "#FFD700", image: "yellow.jpeg" }
+      ],
   sizes: ["M", "L", "XL", "XXL"]
 },
 {
   id: 6,
   name: "هودي مطبوع",
   price: 480,
-  image: "images/hoodie-printed.jpg",
-  description: "هودي بتصميم مطبوع مميز، يناسب الأسلوب العصري.",
-  colors: [
-      { name: "أسود", code: "#000000", image: "images/hoodie-printed-black.jpg" },
-      { name: "أصفر", code: "#FFD700", image: "images/hoodie-printed-yellow.jpg" }
-  ],
+    image: "yellow.jpeg",
+      description: "هودي بتصميم مطبوع مميز، يناسب الأسلوب العصري.",
+      colors: [
+          { name: "أسود", code: "#000000", image: "black.webp" },
+          { name: "أصفر", code: "#FFD700", image: "yellow.jpeg" }
+      ],
   sizes: ["M", "L", "XL", "XXL"]
 },
 {
   id: 7,
   name: "هودي مطبوع",
   price: 480,
-  image: "images/hoodie-printed.jpg",
-  description: "هودي بتصميم مطبوع مميز، يناسب الأسلوب العصري.",
-  colors: [
-      { name: "أسود", code: "#000000", image: "images/hoodie-printed-black.jpg" },
-      { name: "أصفر", code: "#FFD700", image: "images/hoodie-printed-yellow.jpg" }
-  ],
+     image: "yellow.jpeg",
+      description: "هودي بتصميم مطبوع مميز، يناسب الأسلوب العصري.",
+      colors: [
+          { name: "أسود", code: "#000000", image: "black.webp" },
+          { name: "أصفر", code: "#FFD700", image: "yellow.jpeg" }
+      ],
   sizes: ["M", "L", "XL", "XXL"]
 },
 {
   id: 8,
   name: "هودي مطبوع",
   price: 480,
-  image: "images/hoodie-printed.jpg",
-  description: "هودي بتصميم مطبوع مميز، يناسب الأسلوب العصري.",
-  colors: [
-      { name: "أسود", code: "#000000", image: "images/hoodie-printed-black.jpg" },
-      { name: "أصفر", code: "#FFD700", image: "images/hoodie-printed-yellow.jpg" }
-  ],
+     image: "yellow.jpeg",
+      description: "هودي بتصميم مطبوع مميز، يناسب الأسلوب العصري.",
+      colors: [
+          { name: "أسود", code: "#000000", image: "black.webp" },
+          { name: "أصفر", code: "#FFD700", image: "yellow.jpeg" }
+      ],
   sizes: ["M", "L", "XL", "XXL"]
 },
 {
   id: 9,
   name: "هودي مطبوع",
   price: 480,
-  image: "images/hoodie-printed.jpg",
-  description: "هودي بتصميم مطبوع مميز، يناسب الأسلوب العصري.",
-  colors: [
-      { name: "أسود", code: "#000000", image: "images/hoodie-printed-black.jpg" },
-      { name: "أصفر", code: "#FFD700", image: "images/hoodie-printed-yellow.jpg" }
-  ],
+    image: "yellow.jpeg",
+      description: "هودي بتصميم مطبوع مميز، يناسب الأسلوب العصري.",
+      colors: [
+          { name: "أسود", code: "#000000", image: "black.webp" },
+          { name: "أصفر", code: "#FFD700", image: "yellow.jpeg" }
+      ],
   sizes: ["M", "L", "XL", "XXL"]
 },
 {
   id: 10,
   name: "هودي مطبوع",
   price: 480,
-  image: "images/hoodie-printed.jpg",
-  description: "هودي بتصميم مطبوع مميز، يناسب الأسلوب العصري.",
-  colors: [
-      { name: "أسود", code: "#000000", image: "images/hoodie-printed-black.jpg" },
-      { name: "أصفر", code: "#FFD700", image: "images/hoodie-printed-yellow.jpg" }
-  ],
+     image: "yellow.jpeg",
+      description: "هودي بتصميم مطبوع مميز، يناسب الأسلوب العصري.",
+      colors: [
+          { name: "أسود", code: "#000000", image: "black.webp" },
+          { name: "أصفر", code: "#FFD700", image: "yellow.jpeg" }
+      ],
   sizes: ["M", "L", "XL", "XXL"]
 },
 {
@@ -137,8 +137,6 @@ const products = [
 },
 {
   id: 12,
-  name: "هودي مطبوع",
-  price: 480,
   image: "images/hoodie-printed.jpg",
   description: "هودي بتصميم مطبوع مميز، يناسب الأسلوب العصري.",
   colors: [
@@ -182,187 +180,7 @@ const products = [
       { name: "أصفر", code: "#FFD700", image: "images/hoodie-printed-yellow.jpg" }
   ],
   sizes: ["M", "L", "XL", "XXL"]
-},
-{
-  id: 16,
-  name: "هودي مطبوع",
-  price: 480,
-  image: "images/hoodie-printed.jpg",
-  description: "هودي بتصميم مطبوع مميز، يناسب الأسلوب العصري.",
-  colors: [
-      { name: "أسود", code: "#000000", image: "images/hoodie-printed-black.jpg" },
-      { name: "أصفر", code: "#FFD700", image: "images/hoodie-printed-yellow.jpg" }
-  ],
-  sizes: ["M", "L", "XL", "XXL"]
-},
-{
-  id: 17,
-  name: "هودي مطبوع",
-  price: 480,
-  image: "images/hoodie-printed.jpg",
-  description: "هودي بتصميم مطبوع مميز، يناسب الأسلوب العصري.",
-  colors: [
-      { name: "أسود", code: "#000000", image: "images/hoodie-printed-black.jpg" },
-      { name: "أصفر", code: "#FFD700", image: "images/hoodie-printed-yellow.jpg" }
-  ],
-  sizes: ["M", "L", "XL", "XXL"]
-},
-{
-  id: 18,
-  name: "هودي مطبوع",
-  price: 480,
-  image: "images/hoodie-printed.jpg",
-  description: "هودي بتصميم مطبوع مميز، يناسب الأسلوب العصري.",
-  colors: [
-      { name: "أسود", code: "#000000", image: "images/hoodie-printed-black.jpg" },
-      { name: "أصفر", code: "#FFD700", image: "images/hoodie-printed-yellow.jpg" }
-  ],
-  sizes: ["M", "L", "XL", "XXL"]
-},
-{
-  id: 19,
-  name: "هودي مطبوع",
-  price: 480,
-  image: "images/hoodie-printed.jpg",
-  description: "هودي بتصميم مطبوع مميز، يناسب الأسلوب العصري.",
-  colors: [
-      { name: "أسود", code: "#000000", image: "images/hoodie-printed-black.jpg" },
-      { name: "أصفر", code: "#FFD700", image: "images/hoodie-printed-yellow.jpg" }
-  ],
-  sizes: ["M", "L", "XL", "XXL"]
-},
-{
-  id: 20,
-  name: "هودي مطبوع",
-  price: 480,
-  image: "images/hoodie-printed.jpg",
-  description: "هودي بتصميم مطبوع مميز، يناسب الأسلوب العصري.",
-  colors: [
-      { name: "أسود", code: "#000000", image: "images/hoodie-printed-black.jpg" },
-      { name: "أصفر", code: "#FFD700", image: "images/hoodie-printed-yellow.jpg" }
-  ],
-  sizes: ["M", "L", "XL", "XXL"]
-},
-{
-  id: 21,
-  name: "هودي مطبوع",
-  price: 480,
-  image: "images/hoodie-printed.jpg",
-  description: "هودي بتصميم مطبوع مميز، يناسب الأسلوب العصري.",
-  colors: [
-      { name: "أسود", code: "#000000", image: "images/hoodie-printed-black.jpg" },
-      { name: "أصفر", code: "#FFD700", image: "images/hoodie-printed-yellow.jpg" }
-  ],
-  sizes: ["M", "L", "XL", "XXL"]
-},
-{
-  id: 22,
-  name: "هودي مطبوع",
-  price: 480,
-  image: "images/hoodie-printed.jpg",
-  description: "هودي بتصميم مطبوع مميز، يناسب الأسلوب العصري.",
-  colors: [
-      { name: "أسود", code: "#000000", image: "images/hoodie-printed-black.jpg" },
-      { name: "أصفر", code: "#FFD700", image: "images/hoodie-printed-yellow.jpg" }
-  ],
-  sizes: ["M", "L", "XL", "XXL"]
-},
-{
-  id: 23,
-  name: "هودي مطبوع",
-  price: 480,
-  image: "images/hoodie-printed.jpg",
-  description: "هودي بتصميم مطبوع مميز، يناسب الأسلوب العصري.",
-  colors: [
-      { name: "أسود", code: "#000000", image: "images/hoodie-printed-black.jpg" },
-      { name: "أصفر", code: "#FFD700", image: "images/hoodie-printed-yellow.jpg" }
-  ],
-  sizes: ["M", "L", "XL", "XXL"]
-},
-{
-  id: 24,
-  name: "هودي مطبوع",
-  price: 480,
-  image: "images/hoodie-printed.jpg",
-  description: "هودي بتصميم مطبوع مميز، يناسب الأسلوب العصري.",
-  colors: [
-      { name: "أسود", code: "#000000", image: "images/hoodie-printed-black.jpg" },
-      { name: "أصفر", code: "#FFD700", image: "images/hoodie-printed-yellow.jpg" }
-  ],
-  sizes: ["M", "L", "XL", "XXL"]
-},
-{
-  id: 25,
-  name: "هودي مطبوع",
-  price: 480,
-  image: "images/hoodie-printed.jpg",
-  description: "هودي بتصميم مطبوع مميز، يناسب الأسلوب العصري.",
-  colors: [
-      { name: "أسود", code: "#000000", image: "images/hoodie-printed-black.jpg" },
-      { name: "أصفر", code: "#FFD700", image: "images/hoodie-printed-yellow.jpg" }
-  ],
-  sizes: ["M", "L", "XL", "XXL"]
-},
-{
-  id: 26,
-  name: "هودي مطبوع",
-  price: 480,
-  image: "images/hoodie-printed.jpg",
-  description: "هودي بتصميم مطبوع مميز، يناسب الأسلوب العصري.",
-  colors: [
-      { name: "أسود", code: "#000000", image: "images/hoodie-printed-black.jpg" },
-      { name: "أصفر", code: "#FFD700", image: "images/hoodie-printed-yellow.jpg" }
-  ],
-  sizes: ["M", "L", "XL", "XXL"]
-},
-{
-  id: 27,
-  name: "هودي مطبوع",
-  price: 480,
-  image: "images/hoodie-printed.jpg",
-  description: "هودي بتصميم مطبوع مميز، يناسب الأسلوب العصري.",
-  colors: [
-      { name: "أسود", code: "#000000", image: "images/hoodie-printed-black.jpg" },
-      { name: "أصفر", code: "#FFD700", image: "images/hoodie-printed-yellow.jpg" }
-  ],
-  sizes: ["M", "L", "XL", "XXL"]
-},
-{
-  id: 28,
-  name: "هودي مطبوع",
-  price: 480,
-  image: "images/hoodie-printed.jpg",
-  description: "هودي بتصميم مطبوع مميز، يناسب الأسلوب العصري.",
-  colors: [
-      { name: "أسود", code: "#000000", image: "images/hoodie-printed-black.jpg" },
-      { name: "أصفر", code: "#FFD700", image: "images/hoodie-printed-yellow.jpg" }
-  ],
-  sizes: ["M", "L", "XL", "XXL"]
-},
-{
-  id: 29,
-  name: "هودي مطبوع",
-  price: 480,
-  image: "images/hoodie-printed.jpg",
-  description: "هودي بتصميم مطبوع مميز، يناسب الأسلوب العصري.",
-  colors: [
-      { name: "أسود", code: "#000000", image: "images/hoodie-printed-black.jpg" },
-      { name: "أصفر", code: "#FFD700", image: "images/hoodie-printed-yellow.jpg" }
-  ],
-  sizes: ["M", "L", "XL", "XXL"]
-},
-{
-  id: 30,
-  name: "هودي مطبوع",
-  price: 480,
-  image: "images/hoodie-printed.jpg",
-  description: "هودي بتصميم مطبوع مميز، يناسب الأسلوب العصري.",
-  colors: [
-      { name: "أسود", code: "#000000", image: "images/hoodie-printed-black.jpg" },
-      { name: "أصفر", code: "#FFD700", image: "images/hoodie-printed-yellow.jpg" }
-  ],
-  sizes: ["M", "L", "XL", "XXL"]
-},
+}
 
 ];
 
